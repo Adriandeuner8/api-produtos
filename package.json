@@ -1,9 +1,9 @@
 {
   "name": "api-produtos",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "nodemon"
   },
   "keywords": [],
   "author": "",
@@ -13,7 +13,10 @@
     "body-parser": "^1.20.2",
     "express": "^4.19.2",
     "mongodb": "^6.6.2",
-    "node-fetch": "^3.3.2",
+    "mongoose": "^8.3.5",
     "request": "^2.88.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.0"
   }
 }
